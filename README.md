@@ -5,6 +5,7 @@ QA Manual con experiencia en Testing Funcional, API Testing y Automatización b�
 Este repositorio contiene proyectos prácticos donde se simulan escenarios reales de trabajo en entornos QA, incluyendo diseño de casos de prueba, ejecución, documentación de defectos y automatización.
 
 📁 Proyectos
+
 🔹 01 – Functional Testing E-commerce
 
 Pruebas manuales realizadas sobre la plataforma Demoblaze.
