@@ -1,4 +1,4 @@
-📌 Proyecto: Automatización de Pruebas – Selenium IDE
+Automatización de Pruebas – Selenium IDE
 🧾 Descripción
 
 Automatización de casos de prueba funcionales sobre la plataforma Demoblaze utilizando Selenium IDE.
