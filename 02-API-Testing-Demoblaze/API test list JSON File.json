@@ -1,0 +1,155 @@
+{
+	"info": {
+		"_postman_id": "dcc555d2-d5f8-411f-9659-c1cb78afb5a9",
+		"name": "Entrega 13-05",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43880370"
+	},
+	"item": [
+		{
+			"name": "Buscar productos por categoría con parámetro vacío",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"cat\": \"notebook\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.demoblaze.com/bycat",
+					"protocol": "https",
+					"host": [
+						"api",
+						"demoblaze",
+						"com"
+					],
+					"path": [
+						"bycat"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar categoría notebook con item vacío",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"cat\": \"notebook\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.demoblaze.com/bycat",
+					"protocol": "https",
+					"host": [
+						"api",
+						"demoblaze",
+						"com"
+					],
+					"path": [
+						"bycat"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar productos con el item y el parámetro vacío",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"cat\": \"notebook\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.demoblaze.com/bycat",
+					"protocol": "https",
+					"host": [
+						"api",
+						"demoblaze",
+						"com"
+					],
+					"path": [
+						"bycat"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar categoría notebook con la palabra escrita en mayúscula",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"cat\": \"notebook\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.demoblaze.com/bycat",
+					"protocol": "https",
+					"host": [
+						"api",
+						"demoblaze",
+						"com"
+					],
+					"path": [
+						"bycat"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Intentar Buscar categoría notebook con el EndPoint incompleto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"cat\": \"notebook\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.demoblaze.com/byca",
+					"protocol": "https",
+					"host": [
+						"api",
+						"demoblaze",
+						"com"
+					],
+					"path": [
+						"byca"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
