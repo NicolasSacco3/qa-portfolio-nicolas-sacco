@@ -47,7 +47,7 @@ Gestión y documentación de Bugs
 
 API Testing (Postman)
 
-Automatización básica (Selenium IDE)
+Automatización básica (Selenium)
 
 SQL básico para validación de datos
 
